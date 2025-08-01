@@ -1,42 +1,4 @@
-Skip to content
-GitLab
-Why GitLab
-Pricing
-Explore
-Sign in
-Primary navigation
-Project
-C
-cicdTF
 
-Manage
-
-Plan
-
-Code
-
-Build
-
-Deploy
-
-Operate
-
-Monitor
-
-Analyze
- 
-N4si
-cicdTF
-cicdtf
-vpc
-main.tf
-main.tf
-N4si's avatar
-Initial commit
-N4si authored Mar 1, 2024
-f6608a18
-main.tf
-745 B
 resource "aws_vpc" "my_vpc" {
   cidr_block = var.vpc_cidr
   enable_dns_hostnames = true
